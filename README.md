@@ -46,7 +46,7 @@ TTL 설정을 보기 위해서는 Container -> Settings-> 옆에서 Scale & Sett
 ```bash
 # TTL Monitoring
   az monitor metrics list `
-  --resource "/subscriptions/1d14ee17-36f4-492d-a0fa-0cb71a334398/resourceGroups/rg-cosmos-demo/providers/Microsoft.DocumentDB/databaseAccounts/cosmos-demo-88534" `
+  --resource "/subscriptions/<Subscription ID>/resourceGroups/<resource group name>/providers/Microsoft.DocumentDB/databaseAccounts/<cosmod DB account name>" `
   --metric "TotalRequestUnits, ThrottledRequests, StorageUsed" `
   --interval PT1H `
   --output table
