@@ -9,7 +9,7 @@
       "preLaunchTask": "build",
       "cwd": "${workspaceFolder}/src",
       "env": {
-        "COSMOS_ENDPOINT": "https://cosmos-demo-88534.documents.azure.com:443/",
+        "COSMOS_ENDPOINT": "<COSMOS_DB_ENDPOINT>",
         "COSMOS_KEY": "<COSMOS_KEY>",
         "COSMOS_DB": "demoDB",
         "COSMOS_CONTAINER": "orders",
